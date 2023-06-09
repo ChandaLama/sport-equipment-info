@@ -32,75 +32,78 @@
     width: 100%;
   }
   
-  .products {
-    
-    top: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem 9%;
   
-    box-shadow: var(--box-shadow);
-    background: #fff;
+  
+
+ .sports {
+  
+    justify-content: space-between;
+    padding: 5rem;   
     z-index: 900;
   }
-  .products .navbar a {
+
+ 
+
+  .sports .nav a {
     position: relative;
-    font-size: 22px;
-    text-align: center;
-    margin: 0 0rem;
+    font-size: 25px;
+   
     display: inline-block;
     border-radius: 0.1rem;
     color: #000;
     text-decoration: none;
-    padding: 3px 30px;
-  
+    margin-top: 20px;
+   
+    padding: 5px 20px;
+    text-align: center;
+ 
   }
-  
-  .products .navbar a:after {
+
+  .sports .nav a:after {
     content: "";
     position: absolute;
     background: #077232;
     height: 3px;
-    width: 0;
+    
     left: 23px;
     bottom: -1px;
-  
   }
-  
-  .products .navbar a:hover {
+
+  .sports .nav a:hover {
     color: #077232;
   
   }
-
-  .navbar a:hover:after {
+  
+  .sports .nav a:hover:after {
     width: 70%;
   }
   
-  .products .navbar .active {
+  .sports .nav .active {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 800;
   }
+  
+  
+  
+  
+  
 
 
 
 
 
- 
-  .all-products .heading{
+  .all-products .header{
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom:5rem;
     position: relative;
   
   
   }
   
-  .all-products .heading:before {
+  .all-products .header:before {
     
     position: absolute;
     top: 50%;
@@ -113,32 +116,35 @@
   }
   
   
-  .all-products .heading span {
+  .all-products .header span {
     font-size: 3rem;
     padding: .5rem 2rem;
-    color: #000;
-    background: #fff;
-   bottom: 10px;
-    border: 1px solid #000;
-    
+    color: #000;  
+   bottom: 10px;   
   }
+  .all-products .header span:hover{
+    color: #077232;
+  }
+
   
-  
-  
+
   .all-products .box-container .box {
     position: relative;
     width: 30rem;
-    margin: 2rem 0;
+   
     position: relative;
     overflow: hidden;
     border: 1px solid #000;
     text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+   
   
   }
   
   .all-products .box-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
     gap: 2rem;
   }
   
@@ -160,7 +166,7 @@
   }
   
   .all-products .box-container .box .image img {
-    height: 25rem;
+    height: 20rem;
   }
   
   .all-products .box-container .box .image:hover {
@@ -186,7 +192,7 @@
   .all-products .box-container .box .icons a {
     color: #000;
     font-size: 2.2rem;
-    padding: 1.5rem;
+    padding: 1rem;
   }
   
   .all-products .box-container .box .icons a:hover {
@@ -217,7 +223,8 @@
     position: absolute;
     bottom: 1rem;
   
-    right: 1rem;
+    right: 4rem;
+    
   
     padding: .5rem 1rem;
     border-radius: .5rem;

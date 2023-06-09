@@ -5,31 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <link rel="stylesheet" href="./css/product.css">
     <?php
    include "./links.php";
    ?>
+    
+    
 </head>
 <body>
+
 <?php
    include "./header.php";
    ?>
-    <section class="products">
 
-        <div class="navbar">
-            <a href="#allproducts">All</a>
-            <a href="#newproducts">New products</a>
-            <a href="#featured">Featured</a>
-            <a href="#specialoffer">Special offer</a>
-           
-        </section>
+
+<div class="sports">
+    <div class="nav">
+            <a href="#AllProducts">All</a>
+            <a href="#New">New Products</a>
+            <a href="#Featured">Featured</a>
+            <a href="#specialoffer">Special Offer</a>
+            
+        </div>
+</div>
 
          <!--Our products-->
     <section class="all-products" id="products">
-        <h1 class="heading"><span>All Products</span></h1>
+        <h1 class="header"><span>All Products</span></h1>
         <div class="box-container">
             <div class="box">
                 <div class="icons">
@@ -156,7 +157,7 @@
                 </div>
                 <div class="content-1">
                     <h3>Badminton</h3>
-                    <div class="price"> Rs.300</div>
+                    <!-- <div class="price"> Rs.1000</div> -->
                     <a href="#" class="btn">Buy</a>
                 </div>
             </div>
@@ -184,11 +185,11 @@
                     <a href="#" class="fa fa-eye"></a>
                 </div>
                 <div class="image">
-                    <img src="./img/Carlton Aeroblade 2000, Multicolor 1 (1).png" alt="">
+                    <img src="./img/black boots.png" alt="">
                 </div>
                 <div class="content-1">
-                    <h3>Badminton</h3>
-                    <div class="price"> Rs.300</div>
+                    <h3>Black boots</h3>
+                    <div class="price"> Rs.5000</div>
                     <a href="#" class="btn">Buy</a>
                 </div>
             </div>
@@ -200,11 +201,11 @@
                     <a href="#" class="fa fa-eye"></a>
                 </div>
                 <div class="image">
-                    <img src="./img/Carlton Aeroblade 2000, Multicolor 1 (1).png" alt="">
+                    <img src="./img/cricket set.png" alt="">
                 </div>
                 <div class="content-1">
-                    <h3>Badminton</h3>
-                    <div class="price"> Rs.300</div>
+                    <h3>Crockert set</h3>
+                    <div class="price"> Rs.5000</div>
                     <a href="#" class="btn">Buy</a>
                 </div>
             </div>
@@ -216,11 +217,11 @@
                     <a href="#" class="fa fa-eye"></a>
                 </div>
                 <div class="image">
-                    <img src="./img/Carlton Aeroblade 2000, Multicolor 1 (1).png" alt="">
+                    <img src="./img/red soccer.jpg" alt="">
                 </div>
                 <div class="content-1">
-                    <h3>Badminton</h3>
-                    <div class="price"> Rs.300</div>
+                    <h3>Red Soccer</h3>
+                    <div class="price"> Rs.2000</div>
                     <a href="#" class="btn">Buy</a>
                 </div>
             </div>
@@ -229,11 +230,12 @@
 
     </section>
 
+
     <!--Our products ends-->
     <?php
    include "./footer.php";
    ?>
-        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-        <script src="js/script.js"></script>
+        
+        
 </body>
 </html>

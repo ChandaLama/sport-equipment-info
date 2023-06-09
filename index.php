@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sports Information and Equipment Store</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <link rel="stylesheet" href="css/style.css">
+    
+   <?php
+   include "./links.php";
+   ?>
 </head>
 
 <body>
@@ -26,12 +26,12 @@
         <div class="wrapper">
             <div class="first">
                 <img src="./img/unsplash_-gCxvvH4bLo.png">
-                <div class="content">
+               <!-- <div class="content">
                     <span>Welcome to our website</span>
                     <h4>"Believe me, the reward is not so great
                         without the struggle."</h4>
                    
-                </div>
+                </div>-->
             </div>
         </div>
     </div>

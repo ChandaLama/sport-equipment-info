@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg);
+}
+.news h1{
+    padding-left: 10rem;
+    font-size: 25px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+
+}
+
+.card-holder{
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding-left: 5rem;
+  padding-right: 5rem;
+ 
+}
+
+.card{
+  width: 36rem;
+  background-color:#fff;
+  color: #000;
+  margin: 2rem auto;
+  border: 1px solid #000;
+  box-shadow: border-box;
+ 
+
+
+}
+
+.card-name{
+  font-size: 1.7em;
+}
+
+.card-img{
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+}
+
+.card-contents{
+  padding: 1rem;
+}
+
+h1{
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+
+p{
+  font-size: 0.8em;
+  margin-bottom: 1rem;
+}
+
+.cardread-more{
+  display: block;
+  opacity: 0;
+  height: 0;
+  transition: all 0.5s;
+}
+
+.cardread-more--open{
+  display: block;
+  opacity: 1;
+  height: 5rem;
+}
+
+.read-more-btn{
+  display: inline-block;
+  color: var(--accent);
+  background-color: #000;
+  color: #fff;
+  padding: 0.6rem 1.5rem;
+  font-size: 1em;
+  position: relative;
+  z-index: 1;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.read-more-btn:hover{
+  background-color: #077232;
+  box-shadow: 0 0 2rem rgba(0,0,0,0.1);
+  transform: translateY(-3px);
+}
+
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+  }
+  
+  .container .heading{
+    width: 50%;
+    padding-bottom: 50px;
+  }
+  .container .heading h3{
+    font-size: 3rem;
+    font-weight: bolder;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #222;
+  }
+  
+  .container .heading h3 {
+    font-weight: 100;
+  }
+  .container .box{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+  }
+  
+  .container .box .dream{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+  }
+  
+  .container .box .dream img{
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+  }
+  
+  .container .btn{
+    margin: 20px 0 50px 0;
+    background: #222;
+    padding: 5px 20px ;
+    border-radius: 5px;
+  }
+  
+  .container .btn a{
+   color: #fff;
+   font-size: 2rem;
+   text-decoration: none;
+   font-weight: bolder;
+   letter-spacing: 3px;
+  }
+  .container .btn a:hover{
+    background: #077232;
+  }
+
+  
+  @media only screen and (max-width: 769px){
+      .container .box{
+     flex-direction: column;
+    }
+  
+  .container .box .dream{
+    width: 100%;
+  }
+  
+  
+  
+  
+  
+  }
+  
+  @media only screen and (max-width: 643px){
+  .container .heading{
+    width: 100%;
+  }
+  .container .heading h3{
+    font-size: 1em;
+  
+  }
+  
+  }
