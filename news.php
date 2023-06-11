@@ -23,9 +23,13 @@
     </div>
 
 
-    <div class="news">
-        <h1>Top News</h1>
-    </div>
+    <div class="sports">
+        <div class="nav">
+            <a href="news.php">Top News</a>
+            <a href="latestnews.php">Latest News</a>
+            
+        </div> 
+        </div>
     <div class="card-holder">
 
         <div class="card">
@@ -197,11 +201,8 @@
 
 
         </div>
-        <div class="btn">
-            <a href="#">More</a>
-        </div>
 
-
+        
 
 
 

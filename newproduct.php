@@ -2,20 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product</title>
-    <?php
-   include "./links.php";
-   ?>
-    
-    
+    <title>Document</title>
 </head>
+<?php
+include "./links.php";
+?>
 <body>
 
 <?php
-   include "./header.php";
-   ?>
+include "./header.php";
+?>
+
+
 
 
 <div class="sports">
@@ -27,11 +26,10 @@
         </div>
 </div>
 
-         <!--Our products-->
-    <section class="all-products" id="products">
-        <h1 class="header"><span>All Products</span></h1>
-        <div class="box-container">
-            <div class="box">
+<section class="all-products" id="products">
+        <h1 class="header-1"><span>New Products</span></h1>
+        <div class="boxcontainer-2">
+            <div class="box-2">
                 <div class="icons">
                     <a href="#" class="fa fa-search"></a>
                     <a href="#" class="fa fa-heart"></a>
@@ -48,7 +46,7 @@
             </div>
 
 
-            <div class="box">
+            <div class="box-2">
                 <div class="icons">
                     <a href="#" class="fa fa-search"></a>
                     <a href="#" class="fa fa-heart"></a>
@@ -65,7 +63,7 @@
             </div>
 
 
-            <div class="box">
+            <div class="box-2">
                 <div class="icons">
                     <a href="#" class="fa fa-search"></a>
                     <a href="#" class="fa fa-heart"></a>
@@ -81,7 +79,7 @@
                 </div>
             </div>
 
-            <div class="box">
+            <div class="box-2">
                 <div class="icons">
                     <a href="#" class="fa fa-search"></a>
                     <a href="#" class="fa fa-heart"></a>
@@ -97,7 +95,7 @@
                 </div>
             </div>
 
-            <div class="box">
+            <div class="box-2">
                 <div class="icons">
                     <a href="#" class="fa fa-search"></a>
                     <a href="#" class="fa fa-heart"></a>
@@ -113,7 +111,7 @@
                 </div>
             </div>
 
-            <div class="box">
+            <div class="box-2">
                 <div class="icons">
                     <a href="#" class="fa fa-search"></a>
                     <a href="#" class="fa fa-heart"></a>
@@ -129,7 +127,7 @@
                 </div>
             </div>
 
-            <div class="box">
+            <div class="box-2">
                 <div class="icons">
                     <a href="#" class="fa fa-search"></a>
                     <a href="#" class="fa fa-heart"></a>
@@ -145,7 +143,7 @@
                 </div>
             </div>
 
-            <div class="box">
+            <div class="box-2">
                 <div class="icons">
                     <a href="#" class="fa fa-search"></a>
                     <a href="#" class="fa fa-heart"></a>
@@ -156,12 +154,12 @@
                 </div>
                 <div class="content-1">
                     <h3>Badminton</h3>
-                    <div class="price"> Rs.1000</div> 
+                     <div class="price"> Rs.1000</div> 
                     <a href="#" class="btn">Buy</a>
                 </div>
             </div>
 
-            <div class="box">
+            <div class="box-2">
                 <div class="icons">
                     <a href="#" class="fa fa-search"></a>
                     <a href="#" class="fa fa-heart"></a>
@@ -177,7 +175,7 @@
                 </div>
             </div>
 
-            <div class="box">
+            <div class="box-2">
                 <div class="icons">
                     <a href="#" class="fa fa-search"></a>
                     <a href="#" class="fa fa-heart"></a>
@@ -193,7 +191,7 @@
                 </div>
             </div>
 
-            <div class="box">
+            <div class="box-2">
                 <div class="icons">
                     <a href="#" class="fa fa-search"></a>
                     <a href="#" class="fa fa-heart"></a>
@@ -209,7 +207,7 @@
                 </div>
             </div>
 
-            <div class="box">
+            <div class="box-2">
                 <div class="icons">
                     <a href="#" class="fa fa-search"></a>
                     <a href="#" class="fa fa-heart"></a>
@@ -224,28 +222,17 @@
                     <a href="#" class="btn">Buy</a>
                 </div>
             </div>
-<div class="btncontainer"> 
-     <a href="#" class="btn">More</a>
-    </div>
+
             
             
         </div>
        
     </section>
 
-  
-
-    <!--Our products ends-->
-
-    
-
-
-
-    
-
-   <?php
-    include "./footer.php";
-?>
+   
+  <?php
+  include "./footer.php";
+  ?>
         
         
 </body>
