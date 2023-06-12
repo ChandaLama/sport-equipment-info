@@ -70,6 +70,22 @@ top: -5px;
     font-size: 1.2em;
     top: 20px;
 }
+.inputbox-signup{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.inputbox-signup label{
+    color: #fff;
+}
+.inputbox-signup input{
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: rgba(255, 254, 254, 0.1);
+
+}
 .forget{
     margin: -15px 0 15px ;
     font-size: .9em;
@@ -147,5 +163,13 @@ button{
   display: flex;
   justify-content: space-between;
 }
-
-
+.login-link{
+    margin-top: 10px;
+}
+.login-link p{
+    color: #fff;
+}
+.login-link a{
+    text-decoration: none;
+    color: red;
+}
