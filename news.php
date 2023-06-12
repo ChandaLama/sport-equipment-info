@@ -6,15 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Read More Read Less Card</title>
     <link rel="stylesheet" href="css/news.css">
-   <?php
-   include "./links.php";
-   ?>
+    <?php
+    include "./links.php";
+    ?>
 </head>
 
 <body>
     <?php
     include "./header.php";
     ?>
+
+
 
     <div class="news-nav">
 
@@ -27,9 +29,9 @@
         <div class="nav">
             <a href="news.php">Top News</a>
             <a href="latestnews.php">Latest News</a>
-            
-        </div> 
+
         </div>
+    </div>
     <div class="card-holder">
 
         <div class="card">
@@ -202,7 +204,7 @@
 
         </div>
 
-        
+
 
 
 

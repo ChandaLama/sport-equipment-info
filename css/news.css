@@ -441,21 +441,30 @@ main a:hover{
 
 /* main container left */
 
-.main-container-left{
-  padding: 30px 10px;
+/*.main-container-left{
+  padding: 10px 20px 10px 20px;
+}*/
+
+.main-container-left {
+  padding: 20px; /* Adjust the desired padding size */
+  margin-left: 40px;
+  margin-right: 0px;
 }
 
-.main-container-left > h2{
-  padding: 15px 0 15px 30px;
+.sports {
+  padding: 5px; /* Adjust the desired padding size */
 }
 
-.main-container-left h3{
+.nav {
+  padding: 20px;
+}
+
+.container-top-left h3{
   padding: 10px 0;
   font-size: 18px;
-  font-family: var(--heading);
 }
 
-.main-container-left p{
+.container-top-left p{
   font-size: 15px;
   font-weight: 300;
 }
@@ -464,14 +473,16 @@ main a:hover{
   padding: 10px;
 }
 
+.container-top-left article .img{
+  height: 10px;
+  width: 10px;
+}
+
 .container-top-left{
   padding: 15px 30px;
 }
 
-.container-bottom-left{
-  background: #f3f3f3;
-  margin: 15px 30px;
-}
+
 
 /*** main container right */
 
@@ -522,6 +533,8 @@ main a:hover{
 .main-container-right article div{
   margin-right: 10px;
 }
+
+
 
 
 /****** footer *****/
