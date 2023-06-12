@@ -13,7 +13,7 @@
             <div class="fa fa-bars" id="menu-btn"></div>
             <div class="fa fa-search" id="search-btn"></div>
             <div class="fa fa-shopping-cart" id="cart-btn"></div>
-            <div class="fa fa-user" id="login-btn"></div>
+            <div  id="login-btn"><a href="./basic_prac/login.html"><i class="fa fa-user"></i></a></div>
         </div>
 
         <form action="" class="search-form">
